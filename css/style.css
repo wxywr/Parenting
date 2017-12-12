@@ -1,0 +1,74 @@
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,
+td,th,button,strong,em,select,video,canvas{margin:0;padding:0;}
+li{list-style:none;}
+table{ border-collapse:collapse;}
+textarea{resize:none;overflow:auto;}
+img{ border:none; vertical-align:middle;max-width: 100%;display: block;}
+em{ font-style:normal;}
+a{ text-decoration:none;}
+a,input{-webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input{outline: none;}
+a, img {-webkit-touch-callout: none;}
+html, body {-webkit-user-select: none;user-select: none; position: relative; height: 100%;}
+body{font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif; overflow-x:hidden; overflow-y:auto;font-size: 0.14rem;}
+html{font-size: 100px;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*登录页*/
+.logo{
+	width: 30%;
+	height: 1.1rem;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 85%;
+	background-position: center;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	margin-left: -15%;
+}
+.tit{
+	width: 100%;
+	text-align: center;
+	color: #78BD2D;
+	font-weight: normal;
+	position: absolute;
+	top: 45%;
+	font-size: 0.24rem;
+}
+.login{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+}
+.login .put{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.08rem 0;
+	font-size: 0.16rem;
+	color: #333;
+	border: 1px solid #333;
+	border-width: 0 0 1px 0;
+}
+.login input[type="text"]{
+	margin-top: 0.2rem; 
+}
+.login .submit{
+	display: block;
+	width: 80%;
+	height: 0.5rem;
+	line-height: 0.52rem;
+	margin: 0.6rem auto 0;
+	background-color: #8BA5FA;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: 0;
+	font-weight: bold;
+	letter-spacing: 0.05rem;
+}
+::-webkit-input-placeholder{
+	color: #ccc;
+}
