@@ -1,0 +1,99 @@
+.date-wrap{
+		max-width: 800px;
+		margin: 0.5rem auto 0;
+		background-color: #459FD8;
+		border-radius: 0.08rem;
+	}
+	.slide{
+		width: 100%;
+		min-height: 180px;
+		overflow: hidden;
+		position: relative;
+		color: #333;
+	}
+	.slide .img{
+		overflow: hidden;
+		position: absolute;
+		border-radius: 5%;
+		background-color:#fff;
+		transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+	}
+	.slide .img img{
+		width: calc(100% - 14px);
+		height: calc(100% - 14px);
+		margin: 7px;
+	}
+	.slide .img1{
+		width: 40%;
+		height: 40%;
+		top: 30%;
+		left: -50%;
+		z-index: 1;
+	}
+	.slide .img2{
+		width: 60%;
+		height: 60%;
+		top: 20%;
+		left: -20%;
+		z-index: 2;
+	}
+	.slide .img3{
+		width: 40%;
+		height: 80%;
+		top: 10%;
+		left: 30%;
+		z-index: 3;
+	}
+	.slide .img4{
+		width: 60%;
+		height: 60%;
+		top: 20%;
+		left: 60%;
+		z-index: 2;
+	}
+	.slide .img5{
+		width: 40%;
+		height: 40%;
+		top: 30%;
+		left: 110%;
+		z-index: 1;
+	}
+	.slide-bt{
+		position: absolute;
+		left: 50%;
+		bottom: 13%;
+		z-index: 10;
+	}
+	.slide-bt span{
+		width: 24px;
+		height: 8px;
+		background: #c9caca;
+		float: left;
+		margin: 5px;
+		border-radius: 4px;
+	}
+	.slide .slide-bt .on{
+		background: #ffd200;
+	}
+	button{
+		width: 50px;
+		margin: 20px;
+	}
+	.date-wrap .img p,h5{
+		color: #fff;
+		background-color: #75BA28;
+		text-align: center;
+	}
+	.date-wrap .img p{
+		font-size: 0.16rem;
+		padding-top: 0.05rem;
+	}
+	.date-wrap .img h5{
+		font-size: 0.2rem;
+		padding-bottom: 0.08rem;
+	}
+	.date-wrap .img h3{
+		font-size: 0.6rem;
+		color: #333;
+		text-align: center;
+	}

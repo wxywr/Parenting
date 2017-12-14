@@ -72,3 +72,201 @@ html{font-size: 100px;}
 ::-webkit-input-placeholder{
 	color: #ccc;
 }
+
+/*表单页*/
+.container{
+	width: 100%;
+	background-color: #fff;
+	/*position: absolute;
+	left: 5%;
+	top: 3%;*/
+	/*border-radius: 0.06rem;*/
+}
+.container table{
+	width: 90%;
+	background-color: #EEEEEE;
+	margin: 0 auto;
+	border-radius: 0.06rem;
+}
+.container .tb-a {
+	margin: 0 auto 0.1rem;
+}
+.container .tb-b,.container .tb-c,.container .tb-d {
+	margin-bottom: 0.1rem;
+}
+.container th,td{
+	border: 1px solid #fff;
+	font-size: 0.14rem;
+}
+.container th{
+	width: 20%;
+	padding: 0.1rem 0;
+}
+.container .tb-a td{
+	width: 80%;
+	text-indent: 5%;
+	color: #A5A5A5;
+}
+.container th{
+	color: #75BB29;
+}
+.container .tb-b th,td{
+	width: 20%;
+}
+.container .tb-a td img,.tb-b td img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.container .indent{
+	text-indent: 5%;
+}
+.container tr .blue{
+	color: #459FD8;
+	font-size: 0.16rem;
+	text-align: center;
+}
+/*.container tr .last{
+	width: 14%;
+}
+.container tr .long{
+	width: 23%;
+}*/
+.container .tb-b .top{
+	padding: 0.1rem 0;
+}
+.container .txt{
+	color: #A5A5A5;
+}
+.container .white{
+	background-color: #70B5E0;
+	text-align: center;
+	color: #fff;
+	border-top-left-radius: 0.06rem;
+	border-top-right-radius: 0.06rem;
+	padding: 0.08rem 0;
+}
+.container .left{
+	width: 70%;
+	text-align: left;
+	text-indent: 3%;
+}
+.container .right{
+	width: 70%;
+	text-align: center;
+	color: #A5A5A5;
+	font-size: 0.16rem;
+}
+.container .tb-c td img,.tb-d td img,.tb-e td img{
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+}
+/*.container .tb-e{
+	margin-bottom: 0.35rem;
+}*/
+/*日期*/
+.d-top{
+	overflow: hidden;
+	width: 90%;
+	padding: 0.25rem 0;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 0.16rem;
+}
+.d-top .z{
+	width: 55%;
+}
+.d-top .y{
+	width: 45%;
+}
+.d-top .y a{
+	display: inline-block;
+	color: #fff;
+	font-size: 0.15rem;
+	background-color: #459FD8;
+	padding: 0.02rem 0.2rem;
+	border-radius: 0.05rem;
+}
+/*.date-wrap{
+	width: 90%;
+	margin: 0.5rem auto 0;
+	background-color: #459FD8;
+	height: 1rem;
+	border-radius: 0.08rem;
+}*/
+.menus{
+	width: 100%;
+	margin: 0.1rem auto 0;
+	background-color: #fff;	
+	border-radius: 0.05rem;
+	box-shadow:2px 2px 3px #aaaaaa;
+	padding-bottom: 0.1rem;
+}
+.menus .menu-top{
+	width: 90%;
+	margin: 0 auto 0.15rem;
+	overflow: hidden;
+	margin-top: 0.1rem;
+	border-bottom: 1px solid #44A0D8;
+	padding: 0.1rem 0;
+	font-size: 0.14rem;
+}
+.menus .gre{
+	color: #75BB29;
+}
+.menus .lan{
+	color: #459FD8;
+	font-size: 0.14rem;
+}
+.menus .menu-top .bla{
+	color: #333;
+}
+.menus .have{
+	width: 90%;
+	margin: 0 auto 0.08rem;
+	color: #333;
+	font-size: 0.14rem;
+}
+.menus table{
+	background-color: #EEEEEE;
+	width: 90%;
+	margin: 0 auto 0.1rem;
+	text-align: center;
+}
+.menus table th,td{
+	border: 1px solid #fff;
+	padding: 0.05rem 0;
+}
+.menus .lunch-a td{
+	width: 80%;
+    text-indent: 5%;
+    color: #A5A5A5;
+    text-align: left;
+}
+.menus .lunch-a th{
+	width: 20%;
+}
+.menus .lunch-b th{
+	text-align: left;
+	text-indent: 3%;
+}
+.menus .dx th{
+	width: 15%;
+}
+.menus .dx td{
+	width: 17%;
+}
+.menus .dx .gray{
+	color: #A5A5A5;
+}
+.menus .dx img{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.menus .lunch-b img{
+	width: 53%;
+	display: block;
+	margin: 0 auto;
+}

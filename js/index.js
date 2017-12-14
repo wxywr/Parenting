@@ -17,7 +17,7 @@ $(function(){
 			alert("请输入学生姓名");
 			return false;
 		}
-		window.location.href="";
+		window.location.href="date.html";
 	})
 
 
