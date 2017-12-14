@@ -16,30 +16,29 @@ html{font-size: 100px;}
 .fr{float:right;}
 
 /*登录页*/
+.null{
+	width: 100%;
+	height: 1.9rem;
+}
 .logo{
 	width: 30%;
 	height: 1.1rem;
 	background: url(../img/logo.png) no-repeat;
 	background-size: 85%;
 	background-position: center;
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	margin-left: -15%;
+	margin: 0 auto;
 }
 .tit{
 	width: 100%;
 	text-align: center;
 	color: #78BD2D;
 	font-weight: normal;
-	position: absolute;
-	top: 45%;
 	font-size: 0.24rem;
+	margin-top: 0.3rem;
 }
 .login{
 	width: 100%;
-	position: absolute;
-	top: 60%;
+	margin-top: 0.5rem;
 }
 .login .put{
 	display: block;
