@@ -1,12 +1,12 @@
 .date-wrap{
-		max-width: 800px;
-		margin: 0.5rem auto 0;
+		width: 90%;
+		margin: 0 auto;
 		background-color: #459FD8;
 		border-radius: 0.08rem;
 	}
 	.slide{
 		width: 100%;
-		min-height: 180px;
+		min-height: 160px;
 		overflow: hidden;
 		position: relative;
 		color: #333;

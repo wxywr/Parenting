@@ -5,6 +5,20 @@
 $(function(){
 	$('html').css({'font-size':$(window).width()/3.9+"px"});
 
+	$('.login .phone').focus(function(){
+		$(this).attr('placeholder','');
+	});
+	$('.login .phone').blur(function(){
+		$(this).attr('placeholder','请输入手机号码');
+	});
+
+	$('.login .name').focus(function(){
+		$(this).attr('placeholder','');
+	});
+	$('.login .name').blur(function(){
+		$(this).attr('placeholder','学生姓名');
+	});
+
 	$('.submit').click(function(){
 		var phone = $('.phone').val();
 		var name = $('.name').val();

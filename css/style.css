@@ -42,20 +42,21 @@ html{font-size: 100px;}
 }
 .login .put{
 	display: block;
-	width: 90%;
+	width: 86%;
 	margin: 0 auto;
 	padding: 0.08rem 0;
 	font-size: 0.16rem;
 	color: #333;
 	border: 1px solid #333;
 	border-width: 0 0 1px 0;
+	text-align: center;
 }
 .login input[type="text"]{
 	margin-top: 0.2rem; 
 }
 .login .submit{
 	display: block;
-	width: 80%;
+	width: 75%;
 	height: 0.5rem;
 	line-height: 0.52rem;
 	margin: 0.6rem auto 0;
@@ -70,6 +71,7 @@ html{font-size: 100px;}
 }
 ::-webkit-input-placeholder{
 	color: #ccc;
+	text-align: left;
 }
 
 /*表单页*/
@@ -195,8 +197,8 @@ html{font-size: 100px;}
 	border-radius: 0.08rem;
 }*/
 .menus{
-	width: 100%;
-	margin: 0.1rem auto 0;
+	width: 90%;
+	margin: 0.15rem auto 0;
 	background-color: #fff;	
 	border-radius: 0.05rem;
 	box-shadow:2px 2px 3px #aaaaaa;
@@ -260,12 +262,12 @@ html{font-size: 100px;}
 	color: #A5A5A5;
 }
 .menus .dx img{
-	width: 60%;
+	width: 55%;
 	display: block;
 	margin: 0 auto;
 }
 .menus .lunch-b img{
-	width: 53%;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 }
