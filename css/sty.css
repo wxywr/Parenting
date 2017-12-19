@@ -6,12 +6,11 @@
 		position: relative;
 	}
 	.slide{
-		width: 90%;
+		width: 100%;
 		min-height: 160px;
 		overflow: hidden;
 		position: relative;
 		color: #333;
-		margin: 0 auto;
 	}
 	.slide .img{
 		overflow: hidden;
@@ -98,28 +97,24 @@
 		background: #ffd200;
 	}
 	button{
-		width: 5%;
-		height: 0.2rem;
+		width: 28%;
+		height: 60%;
 		border: 0;
 		outline: none;
+		background-color: red;
+		opacity: 0.5;
 	}
 	button.sy{
-		background: url(../img/l.png);
-		background-size: 150%;
-		background-position: center;
 		position: absolute;
 		left: 0;
-		top: 50%;
-		margin-top: -0.1rem;
+		top: 20%;
+		z-index: 100;
 	}
 	button.xy{
-		background: url(../img/r.png);
-		background-size: 150%;
-		background-position: center;
 		position: absolute;
 		right: 0;
-		top: 50%;
-		margin-top: -0.1rem;
+		top: 20%;
+		z-index: 100;
 	}
 
 	.date-wrap .img p,h5{

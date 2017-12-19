@@ -2,7 +2,7 @@ $(function(){
 	var autoLb = false;      
 	var autoLbtime = 1;     
 	var touch = true;      
-	// var slideBt = true;    
+	var slideBt = true;    
 	var slideNub;           
 
 	$(window).resize(function(){
@@ -17,7 +17,7 @@ $(function(){
 		var getDateday = nowDate.getDate(); 
 		
 		var str = '';
-		for(var i = 1; i <= getNowDate(year, month); i++){
+		for(var i = 0; i <= getNowDate(year, month); i++){
 			str += '<div class="img"><p>'+ month +'月</p><h5>'+ getDay(year,month,i) +'</h5><h3>'+ i +'</h3></div>'
 			
 		}
@@ -175,6 +175,5 @@ $(function(){
 	$('.xy').click(function(){
 		right();
 	})
-
 
 })
