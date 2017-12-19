@@ -6,11 +6,12 @@
 		position: relative;
 	}
 	.slide{
-		width: 100%;
+		width: 90%;
 		min-height: 160px;
 		overflow: hidden;
 		position: relative;
 		color: #333;
+		margin: 0 auto;
 	}
 	.slide .img{
 		overflow: hidden;
@@ -59,10 +60,10 @@
 	}
 
 	.slide .img3{
-		width: 44%;
+		width: 42%;
 		height: 80%;
 		top: 10%;
-		left: 28%;
+		left: 29%;
 		z-index: 3;
 	}
 	.slide .img4{
@@ -96,24 +97,47 @@
 	.slide .slide-bt .on{
 		background: #ffd200;
 	}
-	button{
-		width: 28%;
+	.date-wrap button{
+		width: 25%;
 		height: 60%;
 		border: 0;
 		outline: none;
-		background-color: transparent;
+		/*background-color: transparent;*/
+		background-color: red;
+		opacity: 0.6;
 	}
-	button.sy{
+	.date-wrap button.sy{
 		position: absolute;
+		left: 5%;
+		top: 20%;
+		z-index: 100;
+	}
+	.date-wrap button.xy{
+		position: absolute;
+		right: 5%;
+		top: 20%;
+		z-index: 100;
+	}
+
+	.date-wrap .l,.r{
+		width: 5%;
+		height: 0.2rem;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.1rem;
+		z-index: 10000;
+	}
+	.date-wrap .l{
 		left: 0;
-		top: 20%;
-		z-index: 100;
+		background: url(../img/l.png);
+		background-position: center;
+		background-size: 160%;
 	}
-	button.xy{
-		position: absolute;
+	.date-wrap .r{
 		right: 0;
-		top: 20%;
-		z-index: 100;
+		background: url(../img/r.png);
+		background-position: center;
+		background-size: 160%;
 	}
 
 	.date-wrap .img p,h5{

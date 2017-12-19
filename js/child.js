@@ -176,4 +176,14 @@ $(function(){
 		right();
 	})
 
+
+	$('.date-wrap .l').click(function(){
+		left();
+	})
+	$('.date-wrap .r').click(function(){
+		right();
+	})
+
+
+
 })
