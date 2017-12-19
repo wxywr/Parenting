@@ -3,6 +3,7 @@
 		margin: 0 auto;
 		background-color: #459FD8;
 		border-radius: 0.08rem;
+		position: relative;
 	}
 	.slide{
 		width: 90%;
@@ -48,6 +49,16 @@
 		color: #333;
 		text-align: center;
 	}
+
+	.slide .img2 h5{
+		font-size: 0.16rem;
+		padding-bottom: 0.08rem;
+	}
+	.slide .img4 h5{
+		font-size: 0.16rem;
+		padding-bottom: 0.08rem;
+	}
+
 	.slide .img3{
 		width: 44%;
 		height: 80%;
@@ -97,16 +108,18 @@
 		background-size: 150%;
 		background-position: center;
 		position: absolute;
-		left: 5%;
-		top: 23%;
+		left: 0;
+		top: 50%;
+		margin-top: -0.1rem;
 	}
 	button.xy{
 		background: url(../img/r.png);
 		background-size: 150%;
 		background-position: center;
 		position: absolute;
-		right: 5%;
-		top: 23%;
+		right: 0;
+		top: 50%;
+		margin-top: -0.1rem;
 	}
 
 	.date-wrap .img p,h5{
@@ -120,7 +133,7 @@
 		font-size: 0.16rem;
 		padding-top: 0.08rem;
 	}
-	.date-wrap .img h5{
+	.date-wrap .img3 h5{
 		font-size: 0.2rem;
 		padding-bottom: 0.08rem;
 	}
