@@ -5,11 +5,12 @@
 		border-radius: 0.08rem;
 	}
 	.slide{
-		width: 100%;
+		width: 90%;
 		min-height: 160px;
 		overflow: hidden;
 		position: relative;
 		color: #333;
+		margin: 0 auto;
 	}
 	.slide .img{
 		overflow: hidden;
@@ -37,11 +38,21 @@
 		left: -20%;
 		z-index: 2;
 	}
+	.slide .img2 h3{
+		font-size: 0.4rem;
+		color: #333;
+		text-align: center;
+	}
+	.slide .img4 h3{
+		font-size: 0.4rem;
+		color: #333;
+		text-align: center;
+	}
 	.slide .img3{
-		width: 40%;
+		width: 44%;
 		height: 80%;
 		top: 10%;
-		left: 30%;
+		left: 28%;
 		z-index: 3;
 	}
 	.slide .img4{
@@ -76,23 +87,44 @@
 		background: #ffd200;
 	}
 	button{
-		width: 50px;
-		margin: 20px;
+		width: 5%;
+		height: 0.2rem;
+		border: 0;
+		outline: none;
 	}
+	button.sy{
+		background: url(../img/l.png);
+		background-size: 150%;
+		background-position: center;
+		position: absolute;
+		left: 5%;
+		top: 23%;
+	}
+	button.xy{
+		background: url(../img/r.png);
+		background-size: 150%;
+		background-position: center;
+		position: absolute;
+		right: 5%;
+		top: 23%;
+	}
+
 	.date-wrap .img p,h5{
 		color: #fff;
 		background-color: #75BA28;
 		text-align: center;
+		width: 100%;
+		margin-top: 0;
 	}
 	.date-wrap .img p{
 		font-size: 0.16rem;
-		padding-top: 0.05rem;
+		padding-top: 0.08rem;
 	}
 	.date-wrap .img h5{
 		font-size: 0.2rem;
 		padding-bottom: 0.08rem;
 	}
-	.date-wrap .img h3{
+	.date-wrap .img3 h3{
 		font-size: 0.6rem;
 		color: #333;
 		text-align: center;

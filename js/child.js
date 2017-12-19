@@ -2,7 +2,7 @@ $(function(){
 	var autoLb = false;      
 	var autoLbtime = 1;     
 	var touch = true;      
-	var slideBt = true;    
+	// var slideBt = true;    
 	var slideNub;           
 
 	$(window).resize(function(){
@@ -167,5 +167,14 @@ $(function(){
 		var daysCountt = d.getDay();
 		return weekDays[daysCountt];
 	}
+
+
+	$('.sy').click(function(){
+		left();
+	})
+	$('.xy').click(function(){
+		right();
+	})
+
 
 })
